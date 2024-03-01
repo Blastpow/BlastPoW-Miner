@@ -9,7 +9,7 @@ with open("key.txt") as keyFile:
     private_key = keyFile.read()
 with open("rpc.txt") as rpcFile:
     rpc_url = rpcFile.read()
-contract_address = '0xd590dd57ba41d6164c6049e094b9343580a899b2'
+contract_address = '0xD590Dd57BA41D6164C6049E094B9343580A899b2'
 with open('abi.json', 'r') as f3:
     contract_abi = json.load(f3)
 
